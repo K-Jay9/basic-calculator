@@ -1,60 +1,139 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html>
   <head>
-    <meta charset="utf-8">
-    <title>Calculator</title>
-    <link rel="stylesheet" href="style.css">
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    
+    
+    <!-- The required css exports -->
+    <link rel="stylesheet" href="css/materialize.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- The favicon manifest -->
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <link rel="manifest" href="images/site.webmanifest">
+
+
   </head>
-  <body>
-
+<body>
   <main>
-    <header>
-      <h2 class='header'> Basic Calculator</h2>
-    </header>
-      <div class="container">
-      <!-- This is the whole calculator-->
-        <div class="grid">
-      <!-- The screen-->
-          <div class='screen'>
-          </div>
-      <!-- The screen-->
-          <div class='buttonArea'>
-            <div class='row'>
-              <button> 7 </button>
-              <button> 8 </button>
-              <button> 9 </button>
-              <button> AC </button>
-              <button> Del </button>
-            </div>
 
-            <div class='row'>
-              <button> 6 </button>
-              <button> 5 </button>
-              <button> 4 </button>
-              <button> + </button>
-              <button> - </button>
+    <!-- The header of the document-->
+    <header>
+          <div class="col s12 m12">
+            <div class="card head grey">
+              <div class="card-content ">
+                <span class="card-title center">Basic Calculator</span>
+              </div>
             </div>
-            <div class='row'>
-              <button> 3 </button>
-              <button> 2 </button>
-              <button> 1 </button>
-              <button> * </button>
-              <button> / </button>
-            </div>
-            <div class='row'>
-              <button> 0 </button>
-              <button> . </button>
-              <button> .. </button>
-              <button> Ans </button>
-              <button> = </button>
-            </div>
-          </div>
-      <!-- The buttons-->
+        </div>
+  </header>
+  
+  <!--  The calculator UI-->
+<div class="container">
+        <!-- The display of the calculator -->
+        <div class="container ">
+            <div class="calc">
+              <div class="display teal lighten-4">
+                  <h2></h2>              
+              </div>
+                <!--  The Buttons UI-->
+              <div class="buttonArea">
+                <form action="submit">
+                  <div class="row">
+                    <div class="col s2 m2 l2 chip">
+                      (
+                    </div>
+                    <div class="col s2 m2 l2 chip">
+                      )
+                    </div>
+                    <div class="col s2 m2 l2 chip">
+                      Ac
+                    </div>
+                    <div class="col s2 m2 l2 chip">
+                      *
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col s2 m2 l2 chip">
+                      7
+                    </div>
+                    <div class="col s2 m2 l2 chip">
+                      8
+                    </div>
+                    <div class="col s2 m2 l2 chip">
+                      9
+                    </div>
+                    <div class="col s2 m2 l2 chip">
+                      /
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col s2 m2 l2 chip">
+                      4
+                    </div>
+                    <div class="col s2 m2 l2 chip">
+                      5
+                    </div>
+                    <div class="col s2 m2 l2 chip">
+                      6
+                    </div>
+                    <div class="col s2 m2 l2 chip">
+                      +
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col s2 m2 l2 chip">
+                      1
+                    </div>
+                    <div class="col s2 m2 l2 chip">
+                      2
+                    </div>
+                    <div class="col s2 m2 l2 chip">
+                      3
+                    </div>
+                    <div class="col s2 m2 l2 chip">
+                      -
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col s2 m2 l2 chip">
+                      0
+                    </div>
+                    <div class="col s2 m2 l2 chip">
+                      .
+                    </div>
+                    <div class="col s2 m2 l2 chip">
+                      Del
+                    </div>
+                    <div class="col s2 m2 l2 chip">
+                      =
+                    </div>
+                  </div>
+                </form>
+              </div>
+              </div>
 
         </div>
       </div>
-    <script src="index.js" charset="utf-8"></script>
+  </div>
 
-   </main> 
-  </body>
+
+<!-- The footer of the God damn page -->
+<footer class=" page-footer grey">
+  <div class="footer-copyright">
+    <div class="container black-text">
+          © 2020 KJEMPIRE9
+        </div>
+      </div>
+  </footer>
+
+  
+  
+</main>
+  <script src="js/materialize.min.js"></script>
+</body>
 </html>

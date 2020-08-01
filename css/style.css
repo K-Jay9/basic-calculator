@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Fira+Sans:ital,wght@1,600&family=Josefin+Sans&family=Source+Code+Pro:wght@600&display=swap');
+
+
+body{
+  background-attachment: fixed;
+  background-image: url(https://image.freepik.com/free-photo/vintage-surface-plain-grey-white-wood-panel-background-texture_42708-184.jpg);
+  font-family: 'Fira Sans', sans-serif;
+}
+
+.head{
+  margin: 0;
+  width: 100%;
+}
+
+.calc{
+  margin-top: 3rem;
+  margin-bottom: 5rem;
+  height: 40rem;
+  width: 45rem;
+  border: 2px lightgrey;
+  border-radius: 1.5%;
+  border-style: solid;
+  background-color: grey;
+}
+.display{
+  margin: 2rem;
+  height: 7rem;
+  border: 2px ;
+  border-radius: 1.5%;
+  border-style: solid;
+}
+.buttonArea{
+  margin: 2.5rem;
+  border-style: solid;
+  border: 2px red;
+}
+.row{
+  height: 4rem;
+  width: 40rem;
+  padding: 1.5rem;
+  padding-left: 3rem;
+}
+.chip{
+  border-radius: 6.5%;
+  height: 3rem;
+  font-size: larger;
+  background-color: lightgray;
+}
+.m2{
+  margin-right: 2.7rem;
+}
+footer{
+  padding-bottom: 2rem;
+}
+
+
+/* responsivity */
+@media screen 
+  and (device-width: 320px) 
+  and (device-height: 640px) {
+
+    .calc{
+      margin-top: 3rem;
+      margin-bottom: 5rem;
+      height: 40rem;
+      width: 45rem;
+      border: 2px lightgrey;
+      border-radius: 1.5%;
+      border-style: solid;
+      background-color: grey;
+    }
+    .display{
+      margin: 2rem;
+      height: 7rem;
+      border: 2px ;
+      border-radius: 1.5%;
+      border-style: solid;
+    }
+    .buttonArea{
+      margin: 2.5rem;
+      border-style: solid;
+      border: 2px red;
+    }
+    .row{
+      height: 4rem;
+      width: 40rem;
+      padding: 1.5rem;
+      padding-left: 3rem;
+    }
+    .chip{
+      border-radius: 6.5%;
+      height: 3rem;
+      font-size: larger;
+      background-color: lightgray;
+    }
+    .m2{
+      margin-right: 2.7rem;
+    }
+    footer{
+      padding-bottom: 2rem;
+    }
+    
+  }
